@@ -13,7 +13,7 @@ const About = () => {
                                 About
                             </h2>
                             <p>
-                                My experience on web developement is over 5 years now, I started learning web development back in 2017. I started with HTML, CSS and PHP. Then I learned JavaScript and Node.js. I also learned React and TypeScript.
+                                My experience on web developement is over 9 years now, I started learning web development back in 2017. I started with HTML, CSS and PHP. Then I learned JavaScript and Node.js. I also learned React and TypeScript.
                             </p>
                             <p>
                                 I'm a graduate of Bachelor of Science in Information Technology and I build things that can make people lives easier and better. I'm a problem solver, listens carefully to the requirements needed in a project.
