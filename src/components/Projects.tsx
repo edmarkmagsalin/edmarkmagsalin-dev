@@ -1,16 +1,17 @@
-import React, { Fragment, useEffect } from 'react'
-import contactKeeper from '../assets/images/thumbnails/contact-keeper.png'
+import { Fragment, useEffect } from 'react'
+// import contactKeeper from '../assets/images/thumbnails/contact-keeper.png'
 import githubFinder from '../assets/images/thumbnails/github-finder.png'
-import MERNCRUD from '../assets/images/thumbnails/mern-crud-bare-minimum.png'
+// import MERNCRUD from '../assets/images/thumbnails/mern-crud-bare-minimum.png'
+import CA from '../assets/images/thumbnails/ca.png'
 import elsevier from '../assets/images/thumbnails/elsevier.jpg'
 import lexisnexis from '../assets/images/thumbnails/lexisnexis.jpg'
 import tolley from '../assets/images/thumbnails/tolley.jpg'
 
 const Projects = () => {
-    const currentlyFixingAlert = (e: any) => {
-        e.preventDefault();
-        alert('My Apologies. I\'m currently fixing the link for this project');
-    }
+    // const currentlyFixingAlert = (e: any) => {
+    //     e.preventDefault();
+    //     alert('My Apologies. I\'m currently fixing the link for this project');
+    // }
     useEffect(() => {
         const slider: any = document.querySelector('.carousel__slider');
         const prevButton: any = document.querySelector('#prev');
@@ -87,98 +88,49 @@ const Projects = () => {
 
                         <div className="carousel__slider">
 
-
-                        <div className="carousel__item">
+                            <div className="carousel__item">
                                 <div className="project">
                                     <div className="row">
                                         <div className="col-sm-12 col-lg-5 pb-1">
-                                            <img src={lexisnexis} alt="LexisNexis UK" />
+                                            <img src={CA} alt="Curriculum Associates" />
                                         </div>
                                         <div className="col-sm-12 col-lg-7">
-                                            <h4>LexisNexis UK</h4>
+                                            <h4>Curriculum Associates</h4>
                                             <p className="lead">
-                                                A project that I've worked on before for LexisNexis UK using TeamSite (CMS)
+                                                I worked on the internal applications of Curriculum Associates, but I cannot show it here due to confidentiality. You can contact me if you want to know more about this project. I can show you the internal applications that I've worked on.
                                             </p>
                                             <p>
-                                                Powered by: TeamSite, Vanilla JavaScript
+                                                Powered by: Java, React, Node.js
                                             </p>
                                             <p>
-                                                <a href="https://www.lexisnexis.co.uk/" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Visit this project</a>
+                                                <a href="https://www.curriculumassociates.com/" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Visit this project</a>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-
-
-                            <div className="carousel__item">
+                            {/* <div className="carousel__item">
                                 <div className="project">
                                     <div className="row">
                                         <div className="col-sm-12 col-lg-5 pb-1">
-                                            <img src={tolley} alt="Tolley UK" />
+                                            <img src={MERNCRUD} alt="MERN CRUD Bare Minimum" />
                                         </div>
                                         <div className="col-sm-12 col-lg-7">
-                                            <h4>Tolley UK</h4>
+                                            <h4>MERN CRUD Bare Minimum</h4>
                                             <p className="lead">
-                                                A project that I've worked on before for Tolley UK using SquizMatrix (CMS)
-                                            </p>
-                                            <p>
-                                                Powered by: SquizMatrix, Vanilla JavaScript
-                                            </p>
-                                            <p>
-                                                <a href="https://www.tolley.co.uk/" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Visit this project</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                            <div className="carousel__item">
-                                <div className="project">
-                                    <div className="row">
-                                        <div className="col-sm-12 col-lg-5 pb-1">
-                                            <img src={elsevier} alt="Elsevier" />
-                                        </div>
-                                        <div className="col-sm-12 col-lg-7">
-                                            <h4>Elsevier</h4>
-                                            <p className="lead">
-                                                A project that I've worked on before for Elsevier using SquizMatrix (CMS)
-                                            </p>
-                                            <p>
-                                                Powered by: SquizMatrix, Vanilla JavaScript
-                                            </p>
-                                            <p>
-                                                <a href="https://www.elsevier.com/" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Visit this project</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="carousel__item">
-                                <div className="project">
-                                    <div className="row">
-                                        <div className="col-sm-12 col-lg-5 pb-1">
-                                            <img src={contactKeeper} alt="Contact Keeper" />
-                                        </div>
-                                        <div className="col-sm-12 col-lg-7">
-                                            <h4>Contact Keeper</h4>
-                                            <p className="lead">
-                                                You can organize your personal and professional contacts using this application. This project is part of the course <strong>React Front To Back</strong> that is created by Brad Traversy.
+                                                This is a demonstration of Create, Read, Update and Delete (CRUD) using <strong>MERN</strong> stack. I also added account management using <strong>JSON Web Tokens</strong> for authorization.
                                             </p>
                                             <p>
                                                 Powered by: MongoDB, Express, React, Node.js
                                             </p>
                                             <p>
-                                                <a onClick={currentlyFixingAlert} href="https://edmarkmagsalin-contact-keeper.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Visit this project</a>
+                                                <a onClick={currentlyFixingAlert} href="https://mern-crud-bare-minimum.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Visit this project</a>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
 
                             <div className="carousel__item">
                                 <div className="project">
@@ -206,18 +158,84 @@ const Projects = () => {
                                 <div className="project">
                                     <div className="row">
                                         <div className="col-sm-12 col-lg-5 pb-1">
-                                            <img src={MERNCRUD} alt="MERN CRUD Bare Minimum" />
+                                            <img src={elsevier} alt="Elsevier" />
                                         </div>
                                         <div className="col-sm-12 col-lg-7">
-                                            <h4>MERN CRUD Bare Minimum</h4>
+                                            <h4>Elsevier</h4>
                                             <p className="lead">
-                                                This is a demonstration of Create, Read, Update and Delete (CRUD) using <strong>MERN</strong> stack. I also added account management using <strong>JSON Web Tokens</strong> for authorization.
+                                                A project that I've worked on before for Elsevier using SquizMatrix (CMS)
+                                            </p>
+                                            <p>
+                                                Powered by: SquizMatrix, Vanilla JavaScript
+                                            </p>
+                                            <p>
+                                                <a href="https://www.elsevier.com/" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Visit this project</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* <div className="carousel__item">
+                                <div className="project">
+                                    <div className="row">
+                                        <div className="col-sm-12 col-lg-5 pb-1">
+                                            <img src={contactKeeper} alt="Contact Keeper" />
+                                        </div>
+                                        <div className="col-sm-12 col-lg-7">
+                                            <h4>Contact Keeper</h4>
+                                            <p className="lead">
+                                                You can organize your personal and professional contacts using this application. This project is part of the course <strong>React Front To Back</strong> that is created by Brad Traversy.
                                             </p>
                                             <p>
                                                 Powered by: MongoDB, Express, React, Node.js
                                             </p>
                                             <p>
-                                                <a onClick={currentlyFixingAlert} href="https://mern-crud-bare-minimum.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Visit this project</a>
+                                                <a onClick={currentlyFixingAlert} href="https://edmarkmagsalin-contact-keeper.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Visit this project</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> */}
+
+                            <div className="carousel__item">
+                                <div className="project">
+                                    <div className="row">
+                                        <div className="col-sm-12 col-lg-5 pb-1">
+                                            <img src={tolley} alt="Tolley UK" />
+                                        </div>
+                                        <div className="col-sm-12 col-lg-7">
+                                            <h4>Tolley UK</h4>
+                                            <p className="lead">
+                                                A project that I've worked on before for Tolley UK using SquizMatrix (CMS)
+                                            </p>
+                                            <p>
+                                                Powered by: SquizMatrix, Vanilla JavaScript
+                                            </p>
+                                            <p>
+                                                <a href="https://www.tolley.co.uk/" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Visit this project</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="carousel__item">
+                                <div className="project">
+                                    <div className="row">
+                                        <div className="col-sm-12 col-lg-5 pb-1">
+                                            <img src={lexisnexis} alt="LexisNexis UK" />
+                                        </div>
+                                        <div className="col-sm-12 col-lg-7">
+                                            <h4>LexisNexis UK</h4>
+                                            <p className="lead">
+                                                A project that I've worked on before for LexisNexis UK using TeamSite (CMS)
+                                            </p>
+                                            <p>
+                                                Powered by: TeamSite, Vanilla JavaScript
+                                            </p>
+                                            <p>
+                                                <a href="https://www.lexisnexis.co.uk/" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Visit this project</a>
                                             </p>
                                         </div>
                                     </div>

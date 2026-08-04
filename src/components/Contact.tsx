@@ -71,7 +71,7 @@ const Contact = () => {
             if(isSuccess) {
                 const successMessage = setInterval(() => {
                     // alert('Your message is successfully sent 😉');
-                    alert('NOTE: This contact form isn\'t functional yet and didn\'t sent any email. \n\nYou can email me at edmarkmagsalin@gmail.com.');
+                    alert('NOTE: This contact form isn\'t functional and for presentation purposes only. \n\nBut you can email me at edmarkmagsalin@gmail.com.');
                     clearInterval(successMessage);
                 }, 1000);
             } else {
