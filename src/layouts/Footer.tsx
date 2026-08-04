@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from '../components/Logo'
 
 const Footer = () => {
+    const currentYear = new Date().getFullYear();
     return (
         <section>
             <div className="container">
@@ -32,7 +33,7 @@ const Footer = () => {
                     </li>
                 </ul>
                 <p className="disclaimer">
-                    Copyright &copy; 2026 Edmark Magsalin
+                    Copyright &copy; {currentYear} Edmark Magsalin
                 </p>
             </div>
         </section>
