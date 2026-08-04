@@ -1,8 +1,8 @@
-import React, { Fragment } from 'react'
+import { Fragment } from 'react'
 import EM_3 from '../assets/images/em.jpg'
+import { currentYear } from '../utils'
 
 const About = () => {
-    const currentYear = new Date().getFullYear();
     return (
         <Fragment>
             <section>

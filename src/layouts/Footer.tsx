@@ -1,8 +1,7 @@
-import React from 'react'
 import Logo from '../components/Logo'
+import { currentYear } from '../utils'
 
 const Footer = () => {
-    const currentYear = new Date().getFullYear();
     return (
         <section>
             <div className="container">
