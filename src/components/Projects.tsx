@@ -3,6 +3,7 @@ import { Fragment, useEffect } from 'react'
 import githubFinder from '../assets/images/thumbnails/github-finder.png'
 // import MERNCRUD from '../assets/images/thumbnails/mern-crud-bare-minimum.png'
 import CA from '../assets/images/thumbnails/ca.png'
+import asperVisual from '../assets/images/thumbnails/aspervisual.jpg'
 import elsevier from '../assets/images/thumbnails/elsevier.jpg'
 import lexisnexis from '../assets/images/thumbnails/lexisnexis.jpg'
 import tolley from '../assets/images/thumbnails/tolley.jpg'
@@ -104,6 +105,27 @@ const Projects = () => {
                                             </p>
                                             <p>
                                                 <a href="https://www.curriculumassociates.com/" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Visit this project</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="carousel__item">
+                                <div className="project">
+                                    <div className="row">
+                                        <div className="col-sm-12 col-lg-5 pb-1">
+                                            <img src={asperVisual} alt="AS PER VISUAL" />
+                                        </div>
+                                        <div className="col-sm-12 col-lg-7">
+                                            <h4>AS PER VISUAL</h4>
+                                            <p className="lead">I used <strong>NextJS</strong> to build this project. This was actually my friend who ask me to build their website. I was able to build this from the Adobe XD design in a week.
+                                            </p>
+                                            <p>
+                                                Powered by: React, NextJS, Node.js
+                                            </p>
+                                            <p>
+                                                <a href="https://aspervisual.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Visit this project</a>
                                             </p>
                                         </div>
                                     </div>
